@@ -1,0 +1,104 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.calculator{
+    border: 1px solid white;
+    height: 550px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px 1px rgb(255, 255, 255);
+}
+
+input{
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    text-align: right;
+}
+
+#display{
+    border: none;
+    height: 130px;
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+
+button{
+    font-size: 23px;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    background-color: #3c3c3c;
+    color: white;
+}
+
+.button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 40px;
+    gap: 23px;
+}
+
+.set1{
+    display: flex;
+    flex-direction: row;
+    gap: 23px;
+}
+
+.set1 button{
+    background-color: #777777;
+}
+
+.set2{
+    display: flex;
+    flex-direction: row;
+    gap: 23px;
+}
+
+.set3{
+    display: flex;
+    flex-direction: row;
+    gap: 23px;
+}
+
+.set4{
+    display: flex;
+    flex-direction: row;
+    gap: 23px;
+}
+.set5{
+    display: flex;
+    flex-direction: row;
+    gap: 23px;
+}
+
+.zero{
+    width: 133px;
+    border-radius: 62px;
+}
+
+.yellow{
+    background-color: #FA812F;
+}
